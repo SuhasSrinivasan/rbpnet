@@ -2,7 +2,11 @@
 
 ## Install:
 
+You can obtain conda from [conda-forge](https://conda-forge.org/download/)
+After install conda:
 ```
+conda create -n rbpnet python=3.8
+conda activate rbpnet
 pip install git+https://github.com/mhorlacher/rbpnet.git
 ```
 
